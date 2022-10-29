@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    width: 98.6vw;
+    height: 100vh;
+    background-color: #eeeeee;
+}
+
+header{
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    text-shadow: 1px 1px 1px #000 ;
+    color: #fff;
+    font-size: 60px;
+}
+
+#div-input{
+
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f94e7;
+}
+
+input{
+
+    width: 60%;
+    height: 50%;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-family: Inter var,helvetica,arial,sans-serif;
+    font-size: 20px;
+}
+
+main{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-cards{
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card{
+
+    width: 22%;
+    height: 350px;
+    padding: 20px;
+    
+}
+
+.gif{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+}
